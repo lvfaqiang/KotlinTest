@@ -54,9 +54,9 @@ class DemoForWhileWhen {
             "orange" in list -> {
                 print("this is have orange ")
             }
-            "red" in list -> {
+            "red" in list ->
                 print("this is have red ")
-            }
+
 
         }
     }
