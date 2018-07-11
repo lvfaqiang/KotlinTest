@@ -10,9 +10,9 @@ package com.lvfq.main
 
 fun main(args: Array<String>) {
     var demo1 = DemoForWhileWhen()
-//    demo1.testForIndex()
+    demo1.testForIndex()
 //    demo1.testWhen1(5)
-    demo1.textWhen2()
+//    demo1.textWhen2()
 
 }
 
@@ -25,9 +25,16 @@ class DemoForWhileWhen {
 //        for (i in items) {    // 等同于 for each
 //            println(i)
 //        }
-        for (i in items.indices) {  // 等同于  for(int i =0;i< length;i++)
+//        for (i in items.indices) {  // 等同于  for(int i =0;i< item.size;i++)
+//            println(items[i])
+//        }
+        for (i in 0 until items.size) { // 0 until 5  不包含 5   等同于 for (i in 0..items.size-1)
             println(items[i])
         }
+
+//        for (i in 0..items.size - 1) {    // 等同于 for(int i=0; i < count ;i++)
+//            println(items[i])
+//        }
     }
 
     /**
