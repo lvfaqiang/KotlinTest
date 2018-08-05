@@ -1,6 +1,8 @@
 ### KotlinTest
 本项目作为练习 Kotlin 语法整理。
 
+[Kotlin 内联函数](https://github.com/lvfaqiang/KotlinTest/tree/master/src/com/lvfq/demo/LambdaReturnDemo.kt)
+
 [作用域函数](https://github.com/lvfaqiang/KotlinTest/tree/master/src/com/lvfq/demo/作用域函数.kt)
 
 [集合部分操作符 && 自定义操作符](https://github.com/lvfaqiang/KotlinTest/tree/master/src/com/lvfq/demo/Operator.kt)
