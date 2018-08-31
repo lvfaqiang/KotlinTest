@@ -1,6 +1,8 @@
 ### KotlinTest
 本项目作为练习 Kotlin 语法整理。
 
+[Kotlin Map](https://github.com/lvfaqiang/KotlinTest/tree/master/src/com/lvfq/demo/Map.kt)
+
 [Kotlin 泛型枚举值](https://github.com/lvfaqiang/KotlinTest/tree/master/src/com/lvfq/demo/泛型枚举值.kt)
 
 [Kotlin 属性引用](https://github.com/lvfaqiang/KotlinTest/tree/master/src/com/lvfq/demo/属性引用.kt)

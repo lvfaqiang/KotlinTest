@@ -75,6 +75,9 @@ fun main(args: Array<String>) {
     model.takeIf { it.name.isNotEmpty() }?.also { println("name: ${it.name}") } ?: println("name is Null")
     model.takeUnless { it.name.isEmpty() }?.also { println(" Name : ${it.name}") } ?: println("name is Null")
 
+    val result = model.takeIf { it.name.isNotEmpty() }
+
+
     // 重复执行当前闭包语句 times 次   源码借助于 for 循环执行。
     repeat(3) {
         // it 表示当前执行的第几次 （从 0 开始）
