@@ -21,11 +21,17 @@ fun main(args: Array<String>) {
         size += 1
     }
     println(size)
-
-    println(isNumEmpty(""))
-
 }
 
+// field 为属性的缓存字段
+var name: String = ""
+    get() = ""
+    set(value) {
+        if (!value.isEmpty())
+            field = value
+        else
+            field = "empty"
+    }
 
 fun isNumEmpty(value: String): Boolean {
     return value.isEmpty() || (value.toDouble() <= 0.0)
