@@ -21,7 +21,12 @@ fun main(args: Array<String>) {
         size += 1
     }
     println(size)
+
+    println(1.sum(1))
 }
+
+val sum = fun Int.(other: Int): Int = this + other
+
 
 // field 为属性的缓存字段
 var name: String = ""
