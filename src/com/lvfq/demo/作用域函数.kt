@@ -86,6 +86,7 @@ fun main(args: Array<String>) {
      * 一下代码等同于 ：
      *
      * with 代码会被转换成 这种操作  model.apply{this.name="with"}
+     * 编译后代码 为  model.setName("with") ,所以，with 函数是没有返回值的。
      *
      * 在 Android 中 作为一个工具类，进行统一设置多个 model 的相同属性。
      */

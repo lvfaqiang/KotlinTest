@@ -1,6 +1,10 @@
 ### KotlinTest
 本项目作为练习 Kotlin 语法整理。
 
+[Kotlin Return And  Break](https://github.com/lvfaqiang/KotlinTest/tree/master/src/com/lvfq/demo/ReturnBreak.kt)
+
+[Kotlin Null](https://github.com/lvfaqiang/KotlinTest/tree/master/src/com/lvfq/demo/Nullable.kt)
+
 [Kotlin reified 真泛型](https://github.com/lvfaqiang/KotlinTest/tree/master/src/com/lvfq/demo/ReifiedGenericDemo.kt)
 
 [Kotlin 内联函数](https://github.com/lvfaqiang/KotlinTest/tree/master/src/com/lvfq/demo/LambdaReturnDemo.kt)

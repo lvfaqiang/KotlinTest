@@ -14,6 +14,25 @@ import java.text.NumberFormat
 fun main(args: Array<String>) {
     val result = FloatingDecimal.parseFloat("-0.00048")
     println(formatChange(-0.00048f))
+
+    var pages = 17 / 8F
+    var size = pages.toInt()
+    if (size < pages) {
+        size += 1
+    }
+    println(size)
+
+    println(isNumEmpty(""))
+
+}
+
+
+fun isNumEmpty(value: String): Boolean {
+    return value.isEmpty() || (value.toDouble() <= 0.0)
+}
+
+fun generatePhone(phone: String): String {
+    return phone.replace(Regex("(\\d{3})\\d{4}(\\d{4})"), "$1****$2")
 }
 
 fun formatChange(changeRatio: Float): String {
